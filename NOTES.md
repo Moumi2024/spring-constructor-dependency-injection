@@ -14,19 +14,19 @@ From this container, we get the required bean (Student) and run the program.
 
  [Connection Flow]
 -----------------
-MainApp (starts Spring container)
+    MainApp (starts Spring container)
             |
-AppConfig (provides configuration)
+    AppConfig (provides configuration)
             |
-ComponentScan (scans classes)
+    ComponentScan (scans classes)
             |
-Spring creates beans
+    Spring creates beans
             |
-Spring injects dependencies
+    Spring injects dependencies
             |
-Student runs using Address
+    Student runs using Address
 
-===========================================================================================
+==========================================================================================
 
 **[Under the 📌 MainApp.java class this coded line exist]
 
@@ -50,7 +50,7 @@ ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.cl
 
 
 
-        📌Full meaning :
+   📌Full meaning :
         ApplicationContext is the Spring container. 
         We create it using AnnotationConfigApplicationContext and 
         pass the configuration class so that Spring can scan and create all required beans.
