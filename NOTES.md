@@ -12,8 +12,8 @@ find components. Spring reads this class first and uses it to scan packages and 
 📌MainApp → MainApp is the starting point of the application. It contains the main() method. It creates the Spring container using AnnotationConfigApplicationContext.
 From this container, we get the required bean (Student) and run the program.
 
-    [Connection Flow]
-    -----------------
+ [Connection Flow]
+-----------------
 MainApp (starts Spring container)
             |
 AppConfig (provides configuration)
@@ -26,7 +26,7 @@ Spring injects dependencies
             |
 Student runs using Address
 
-==========================================================================================================================================================================
+==============================================================================================================
 
 **[Under the 📌 MainApp.java class this coded line exist]
 
